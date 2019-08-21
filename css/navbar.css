@@ -1,0 +1,10 @@
+.portNav {
+    overflow: hidden;
+    /* background-image: url("../assets/brick.jpg"); */
+    background-color: #E2CFE2;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100vw;
+    z-index: 10;
+    
+}

@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 45vh;
+    height: 55vh;
     text-align: center;
+    font-family: 'Megrim', cursive;
+    text-shadow: 1px 1px whitesmoke;
 }

@@ -1,129 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
 
-    <!--Bootstrap Links - always goes above my css stylesheet link--> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    
-    <!-- Css Files-->
-    <link rel="stylesheet" href="css/main.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Handlee|Megrim|Merienda+One|Playfair+Display&display=swap"
+    rel="stylesheet">
+  <title>Portfolio</title>
+
+  <!--Bootstrap Links - always goes above my css stylesheet link-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- Css Files-->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <!--Bootstrap Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--changed navbar background color from bg-light to bg-dark-->
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
+  <!--Bootstrap Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light portNav">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#about">About</a>
+          <a class="nav-item nav-link active" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link active" href="#contact">Contact Me</a>
+        </div>
+      </div>
+    </nav>
+ <!-- <nav class="navbar navbar-light" style="background-color: #F1E6E8;"> -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> changed navbar background color from bg-light to bg-dark -->
+       
+      <!-- <div class="navbar-nav">
+      <a class="navbar-brand" href="#">Home</a>
+    <a class="nav-item nav-link active" href="#">Projects</a>
+    <a class="navbar-brand" href="#">About Me</a>
+    <a class="navbar-brand" href="#">Contact Me</a>
+          </div> -->
+         
+    <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  </a> -->
+    <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
+                  </div> -->
+    <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <!-- <form class="form-inline my-2 my-lg-0">
+                </li> -->
+    <!-- <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
               </form> -->
-            </div>
-          </nav>
-<!--End bootstrap navbar-->
-<!--Header-->
-<div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Lindsey Dickerson</h1>
-          <p class="lead">Coder</p>
+  
+  <!--End bootstrap navbar-->
+  <!--Header-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Lindsey Dickerson</h1>
+      <p class="lead">Web Developer</p>
+    </div>
+  </div>
+  <!--end header-->
+
+
+
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center text-uppercase">About Me</h2>
+          <p>Hello, I am Lindsey Dickerson and I am a current student at Eleven Fifty Academy learning JavaScript.
+
+            In my spare time I enjoy volunteering with Girl Scouts, playing the flute, cooking, and advocating for those
+            with chronic conditions and disabilities. As a Girl Scout troop leader, I coordinated and planned meetings while encouraging a girl-led experience. It brings me so much joy to see the girls of my troop learning and growing. It also taught me a lot about myself and pushed me to step outside of my comfort zone, as I am not one to venture outdoors. As we all know, scouts love to camp! I however, do not. But I took classes and researched so I could provide the best camping experiences for the girls of my troop. As a part of being a Girl Scout leader, I am also CPR and First Aid Certified. I am very involved in my church and have served in many capacities such as a member of the Pathways to Vitality Team, Communications Chair on the Bishop's Committee, Christian Education Instructor, Altar Guild, Intercessor, and parish representative at Diocesan Convention. One of my favorite ministries of my church is the Harvest House Community Center. It was implemented after receiving a $40,000 grant by The Lily Foundation in conjunction with The Center for Congregations. I was honored to be a part of the planning of this ministry by attending the planning workshops put on by The Center for Congregations to help churches across central Indiana determine what is needed in their communities and match available resources to serve that need. Harvest House is now serving the community by teaching members of the community who are young and young at heart how to plant, preserve, and prepare food that they have grown on the 7 acre property. There are various workshops on different ways to preserve such as canning, freezing, and vacuum sealing crops. Many classes are offered to teach different preparation methods, including how to make bread, taught by local artisan <a href="https://www.facebook.com/Frankthebreadguy/" target="_blank">"Frank The Bread Guy."</a> The crops grown are divided amongst the community, allowing for people to come and pick at their leisure as needed, and also donated to local food pantries and soup kitchens in the community. 
+            <br>
+            <br>
+            I am a lifelong Indiana resident, attending Pike High School (Class of 2001) and Butler Univeristy (Class of
+            2006), majoring in Journalism with a concentration in Public Relations. While at Pike I enjoyed activities such as band, color guard, theatre, and technical theatre. I continued to be involved in band while at Butler, playing for the Butler Basketball Band. Go Bulldogs! I also was a memeber of Pi Beta Phi Fraternity for Women and was selected to be a Recruitment Counselor to help guide those interested in joining the Greek Community through the recruitment process. As a member of Pi Beta Phi I participated in many philanthropic events to raise awareness and funds for various organizations. I served as a coordinator for special interest groups of the fraternity members, encouraging collaboration amongst the groups to complete various tasks that were needed for events. I was a spokesperson for the Code B.L.U.E. system at Butler, which was the revolutionary security system set in place to alert authorities in the event of an emergency throughout campus. I was interviewed by many local and national news outlets. I think my mom still has the VHS tape of me on NBC Nightly News! &#x1F606; 
+            <br>
+            <br>
+            I spent 11 years in the Property and Casualty Insurance Industry, and decided to further my education in the
+            summer of 2019 by attending Eleven Fifty. During my tenure in the P&C industry, I developed a strong passion for providing top-notch customer service. I constantly worked on my listening and empathy skills to ensure that my customers were getting the best experience possible. I continually looked for ways to improve not only customer service, but my knowledge of the industry by enrolling in classes to work towards my AIC designation, which is still in progress. I worked in various roles such as Personal Lines Customer Service, Commercial Lines Customer Service, and as an Auto Claims Adjuster. Most recently I was selected to be a part of the work from home team based on performance and tenure. 
+            <br>
+            <br>
+            I am looking to be a part of a web development team for a company or organization that values and encourages professional development and embraces diverse views and concepts. A strong work-life balance is desired, as well as giving back to the local community. 
+          
+          </p>
+        </div>
+        <!-- <div class="col-sm-4">
+                    <p></p>
+            </div> -->
+        <!-- <div class="col-sm-4">
+                        <p>Text here</p>
+            </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- END ABOUT -->
+  <hr>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+            <h2 class="text-center text-uppercase">Portfolio</h2>
+          <p>While a student at Eleven Fifty, I have had the chance to work on some really challenging and fun projects! Below you will see a collection of my work.</p>
+          <ul>
+            <li><a href="https://codepen.io/lnzdkrsn/pen/RwbojmK" target="_blank">Pre-Work Assignment</a></li>
+            <li><a href="https://codepen.io/lnzdkrsn/pen/eqyYoK" target="_blank">CSS Creature</a></li>
+            <li><a href=" " target="_blank">Static Layout</a></li>
+            <li><a href="https://elevenfiftylmdmakeup.firebaseapp.com/?" target="_blank">API Project</a></li>
+          </ul>
+
+
+<!-- End Portfolio -->
+<hr>
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <br>
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+            action="https://formspree.io/lindseydickerson2@gmail.com" method="post">
+            <fieldset id="fs-frm-inputs">
+
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input class="form-control" type="text" name="name" id="full-name" placeholder="First and Last"
+                  required="">
+              </div>
+
+              <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input class="form-control" type="email" name="_replyto" id="email-address"
+                  placeholder="email@domain.tld" required="">
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" rows="5" name="message" id="message" placeholder="Thanks for viewing my portfolio! I look forward to hearing from you."
+                  required=""></textarea>
+              </div>
+
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <!-- <input type="submit" value="Submit"> changed button below -->
+            <div class="text-center">
+              <button type="submit" class="btn btn-outline-dark">Send Message</button>
+          </form>
+          <br>
+          <br>
         </div>
       </div>
-<!--end header--> 
-
-
-
-<!-- ABOUT -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-            <div class="col-sm-5">
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-            <div class="col-sm-3">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-        </div>
     </div>
-</div>
-<!-- END ABOUT -->
+  </div>
+  <!-- End Contact -->
+  <hr>
+<!-- Begin Footer -->
+<div class="card">
+    <div class="card-header">
+      Personal Mantra
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Every accomplishment starts with the decision to try.</p>
+        <footer class="blockquote-footer">President John F. Kennedy</footer>
+      </blockquote>
+    </div>
+  </div>
 
-<!-- Contact -->
-<div id="contact">
-    <div class="container">
-        <h2 class = "text-center text-uppercase">Contact Me</h2>
-        <br>
-        <div class="row">
-        <div class="col-12">
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/lindseydickerson2@gmail.com" method="post">
-    <fieldset id="fs-frm-inputs">
-      
-      <div class="form-group">
-        <label for="full-name">Full Name</label>
-      <input class ="form-control" type="text" name="name" id="full-name" placeholder="First and Last" required="">
-      </div>
-     
-      <div class="form-group">
-      <label for="email-address">Email Address</label>
-      <input class ="form-control" type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-      </div>
-      
-      <div class="form-group">
-      <label for="message">Message</label>
-      <textarea class="form-control" rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-      </div>
-     
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <!-- <input type="submit" value="Submit"> changed button below --> 
-    <div class="text-center">
-    <button type="submit" class="btn btn-outline-dark">Send Message</button>
-  </form>
-  <br>
-  <br>
-    </div>
-    </div>
-    </div>
-</div>
-<!-- End Contact -->
+<!-- End Footer -->
 
-<script src="js/main.js"></script>    
-<!--Bootstrap Links-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<!--End bootstrap link-->
+  <script src="js/main.js"></script>
+  <!--Bootstrap Links-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!--End bootstrap link-->
 </body>
+
 </html>

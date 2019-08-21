@@ -7,6 +7,18 @@
 @import "contact.css";
 @import "footer.css";
 
+/* font-family: 'Playfair Display', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Handlee', cursive;
+font-family: 'Merienda One', cursive;
+font-family: 'Megrim', cursive; 
+*/
+
 body {
-    background-color: var(--white);
+    background-color: #F1E6E8;
+}
+
+#display-4 h1 {
+    font-family: 'Handlee', cursive;
+    
 }
